@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
-import "./services.css";
+import React, { useState } from 'react';
+import './services.css';
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -26,8 +26,8 @@ const Services = () => {
           <div
             className={
               toggleState === 1
-                ? "services__modal active-modal"
-                : "services__modal"
+                ? 'services__modal active-modal'
+                : 'services__modal'
             }
           >
             <div className="services__modal-content">
@@ -37,7 +37,7 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Web Developer</h3>
               <p className="services__modal-description">
-                Service with over 2 years of experience, delivering high-quality
+                Service with over 3 years of experience, delivering high-quality
                 websites for clients and businesses.
               </p>
               <ul className="services__modal-services grid">
@@ -93,8 +93,8 @@ const Services = () => {
           <div
             className={
               toggleState === 2
-                ? "services__modal active-modal"
-                : "services__modal"
+                ? 'services__modal active-modal'
+                : 'services__modal'
             }
           >
             <div className="services__modal-content">
@@ -104,7 +104,7 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Service with over 2 years of experience in designing intuitive
+                Service with over 3 years of experience in designing intuitive
                 and visually appealing user interfaces.
               </p>
               <ul className="services__modal-services grid">
@@ -158,8 +158,8 @@ const Services = () => {
           <div
             className={
               toggleState === 3
-                ? "services__modal active-modal"
-                : "services__modal"
+                ? 'services__modal active-modal'
+                : 'services__modal'
             }
           >
             <div className="services__modal-content">

@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import "./contact.css";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import './contact.css';
 
 const Contact = () => {
   const form = useRef();
@@ -9,8 +9,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_zblk17k", "template_3mdypam", form.current, {
-      publicKey: "F4fEWNm4PW86coLdO",
+    emailjs.sendForm('service_zblk17k', 'template_3mdypam', form.current, {
+      publicKey: 'F4fEWNm4PW86coLdO',
     });
     e.target.reset();
   };
@@ -32,7 +32,7 @@ const Contact = () => {
                 href="mailto:examplemail@gmail.com.com"
                 className="contact__button"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -43,8 +43,9 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=6289698542700&text=Hello, more information!"
                 className="contact__button"
+                target="_blank"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -55,8 +56,9 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/hasanwirayuda/"
                 className="contact__button"
+                target="_blank"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

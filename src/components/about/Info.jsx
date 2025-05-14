@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React from 'react';
 
 const Info = () => {
   return (
@@ -7,7 +7,7 @@ const Info = () => {
       <div className="about__box">
         <i className="bx bx-award about__icon"></i>
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">2.5 Years Learning</span>
+        <span className="about__subtitle">3 + Years</span>
       </div>
       <div className="about__box">
         <i className="bx bx-briefcase-alt about__icon"></i>
